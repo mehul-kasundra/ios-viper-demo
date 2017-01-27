@@ -1,0 +1,72 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ArticlesModuleInterface"
+- "Presentor"
+provides-nominal:
+- "P9ViperDemo23ArticlesModuleInterface"
+- "C9ViperDemo9Presentor"
+provides-member:
+- ["P9ViperDemo23ArticlesModuleInterface", ""]
+- ["C9ViperDemo9Presentor", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ArticlesModuleInterface"
+- "ArticlesInteractorInput"
+- "Presentor"
+- "Void"
+- "ArticlesInteractorOutput"
+- "ArticlesViewInterface"
+- "String"
+- "ArticlesWireframeInput"
+depends-member:
+- ["Ps9AnyObject", "getText"]
+- !private ["Ps9AnyObject", "interactor"]
+- ["Ps9AnyObject", "updateViewWithMessage"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", ""]
+- !private ["P9ViperDemo23ArticlesInteractorInput", "setTextFromPresentor"]
+- ["P9ViperDemo24ArticlesInteractorOutput", "getText"]
+- !private ["P9ViperDemo24ArticlesInteractorOutput", "interactor"]
+- ["P9ViperDemo24ArticlesInteractorOutput", "updateViewWithMessage"]
+- !private ["P9ViperDemo24ArticlesInteractorOutput", "view"]
+- ["P9ViperDemo24ArticlesInteractorOutput", ""]
+- ["P9ViperDemo23ArticlesModuleInterface", "String"]
+- ["P9ViperDemo23ArticlesModuleInterface", "Void"]
+- ["P9ViperDemo23ArticlesModuleInterface", "getText"]
+- !private ["P9ViperDemo23ArticlesModuleInterface", "interactor"]
+- ["P9ViperDemo23ArticlesModuleInterface", "updateViewWithMessage"]
+- !private ["P9ViperDemo23ArticlesModuleInterface", "view"]
+- ["P9ViperDemo23ArticlesModuleInterface", ""]
+- !private ["P9ViperDemo21ArticlesViewInterface", "getTextFromPresentor"]
+- !private ["SQ", "deinit"]
+- ["C9ViperDemo9Presentor", "ArticlesInteractorInput"]
+- ["C9ViperDemo9Presentor", "ArticlesViewInterface"]
+- ["C9ViperDemo9Presentor", "ArticlesWireframeInput"]
+- ["C9ViperDemo9Presentor", "String"]
+- ["C9ViperDemo9Presentor", "Void"]
+- ["C9ViperDemo9Presentor", "deinit"]
+- ["C9ViperDemo9Presentor", "getText"]
+- ["C9ViperDemo9Presentor", "init"]
+- ["C9ViperDemo9Presentor", "interactor"]
+- ["C9ViperDemo9Presentor", "updateViewWithMessage"]
+- ["C9ViperDemo9Presentor", "view"]
+- ["C9ViperDemo9Presentor", "wireframe"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "P9ViperDemo23ArticlesInteractorInput"
+- "P9ViperDemo24ArticlesInteractorOutput"
+- "P9ViperDemo23ArticlesModuleInterface"
+- !private "P9ViperDemo21ArticlesViewInterface"
+- !private "SQ"
+- "C9ViperDemo9Presentor"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "46501a4a311021368a25672a7415c2f3"

@@ -1,0 +1,63 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ArticlesInteractorInput"
+- "ArticlesInteractorOutput"
+- "Intractor"
+provides-nominal:
+- "P9ViperDemo23ArticlesInteractorInput"
+- "P9ViperDemo24ArticlesInteractorOutput"
+- "C9ViperDemo9Intractor"
+provides-member:
+- ["P9ViperDemo23ArticlesInteractorInput", ""]
+- ["P9ViperDemo24ArticlesInteractorOutput", ""]
+- ["C9ViperDemo9Intractor", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Void"
+- "String"
+- "ArticlesInteractorOutput"
+- "Intractor"
+- "ArticlesInteractorInput"
+- !private "print"
+depends-member:
+- ["Ps9AnyObject", "fetchText"]
+- !private ["Ps9AnyObject", "output"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "setTextFromPresentor"]
+- ["Ps9AnyObject", ""]
+- ["P9ViperDemo23ArticlesInteractorInput", "String"]
+- ["P9ViperDemo23ArticlesInteractorInput", "Void"]
+- ["P9ViperDemo23ArticlesInteractorInput", "fetchText"]
+- !private ["P9ViperDemo23ArticlesInteractorInput", "output"]
+- !private ["P9ViperDemo23ArticlesInteractorInput", "print"]
+- ["P9ViperDemo23ArticlesInteractorInput", "setTextFromPresentor"]
+- ["P9ViperDemo23ArticlesInteractorInput", ""]
+- ["P9ViperDemo24ArticlesInteractorOutput", "String"]
+- ["P9ViperDemo24ArticlesInteractorOutput", "Void"]
+- ["P9ViperDemo24ArticlesInteractorOutput", "getText"]
+- !private ["SQ", "deinit"]
+- ["C9ViperDemo9Intractor", "ArticlesInteractorOutput"]
+- ["C9ViperDemo9Intractor", "String"]
+- ["C9ViperDemo9Intractor", "deinit"]
+- ["C9ViperDemo9Intractor", "fetchText"]
+- ["C9ViperDemo9Intractor", "init"]
+- ["C9ViperDemo9Intractor", "output"]
+- !private ["C9ViperDemo9Intractor", "print"]
+- ["C9ViperDemo9Intractor", "setTextFromPresentor"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P9ViperDemo23ArticlesInteractorInput"
+- "P9ViperDemo24ArticlesInteractorOutput"
+- !private "SQ"
+- "C9ViperDemo9Intractor"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "4eb4e0ae22f36132d53ec479e251f8de"

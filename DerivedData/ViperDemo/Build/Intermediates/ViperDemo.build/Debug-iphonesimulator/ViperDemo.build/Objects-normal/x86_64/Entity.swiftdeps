@@ -1,0 +1,33 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Article"
+provides-nominal:
+- "V9ViperDemo7Article"
+provides-member:
+- ["V9ViperDemo7Article", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Article"
+- "String"
+depends-member:
+- ["V9ViperDemo7Article", "String"]
+- ["V9ViperDemo7Article", "authors"]
+- ["V9ViperDemo7Article", "content"]
+- ["V9ViperDemo7Article", "date"]
+- ["V9ViperDemo7Article", "imageUrl"]
+- ["V9ViperDemo7Article", "init"]
+- ["V9ViperDemo7Article", "title"]
+- ["V9ViperDemo7Article", "website"]
+depends-nominal:
+- "V9ViperDemo7Article"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "ccaa9d36fd25480940133b1d2d46c4e5"

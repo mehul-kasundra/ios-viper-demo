@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.3 (swiftlang-800.10.13 clang-800.0.42.1)"
+options: "7d9fb87df8ef9b2688b7f90e2a321e3d"
+build_time: [538814829, 444640000]
+inputs:
+  "/Users/Nishant/Downloads/webplanex-ios-viper-demo/ViperDemo/WireFrame.swift": [538809870, 0]
+  "/Users/Nishant/Downloads/webplanex-ios-viper-demo/ViperDemo/Presentor.swift": [538809832, 0]
+  "/Users/Nishant/Downloads/webplanex-ios-viper-demo/ViperDemo/Entity.swift": [538809842, 0]
+  "/Users/Nishant/Downloads/webplanex-ios-viper-demo/ViperDemo/ViewController.swift": [538809850, 0]
+  "/Users/Nishant/Downloads/webplanex-ios-viper-demo/ViperDemo/AppDelegate.swift": [538809858, 0]
+  "/Users/Nishant/Downloads/webplanex-ios-viper-demo/ViperDemo/Intractor.swift": [538809786, 0]

@@ -1,0 +1,420 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ArticlesViewInterface"
+- "ViewController"
+provides-nominal:
+- "P9ViperDemo21ArticlesViewInterface"
+- "C9ViperDemo14ViewController"
+provides-member:
+- ["P9ViperDemo21ArticlesViewInterface", ""]
+- ["C9ViperDemo14ViewController", ""]
+provides-dynamic-lookup:
+- "lblName"
+- "buttonSortTitle"
+- "getTextFromPresentor"
+- "navigationBarTitle"
+- "txtName"
+- "viewDidLoad"
+- "buttonClick"
+depends-top-level:
+- "String"
+- "UIViewController"
+- !private "Intractor"
+- "StringLiteralType"
+- "ArticlesViewInterface"
+- "ViewController"
+- "Void"
+- "UILabel"
+- "UITextField"
+- "ArticlesModuleInterface"
+- !private "Presentor"
+- !private "WireFrame"
+depends-member:
+- !private ["Ps9AnyObject", "Intractor"]
+- !private ["Ps9AnyObject", "Presentor"]
+- !private ["Ps9AnyObject", "WireFrame"]
+- ["Ps9AnyObject", "buttonClick"]
+- ["Ps9AnyObject", "buttonSortTitle"]
+- ["Ps9AnyObject", "getTextFromPresentor"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "interactor"]
+- ["Ps9AnyObject", "lblName"]
+- ["Ps9AnyObject", "navigationBarTitle"]
+- !private ["Ps9AnyObject", "output"]
+- ["Ps9AnyObject", "presentor"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "txtName"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- !private ["Ps9AnyObject", "wireframe"]
+- ["Ps9AnyObject", ""]
+- !private ["P9ViperDemo23ArticlesInteractorInput", "init"]
+- !private ["P9ViperDemo23ArticlesInteractorInput", "output"]
+- !private ["P9ViperDemo24ArticlesInteractorOutput", "init"]
+- !private ["P9ViperDemo24ArticlesInteractorOutput", "interactor"]
+- !private ["P9ViperDemo24ArticlesInteractorOutput", "view"]
+- !private ["P9ViperDemo24ArticlesInteractorOutput", "wireframe"]
+- !private ["P9ViperDemo23ArticlesModuleInterface", "init"]
+- !private ["P9ViperDemo23ArticlesModuleInterface", "interactor"]
+- !private ["P9ViperDemo23ArticlesModuleInterface", "updateViewWithMessage"]
+- !private ["P9ViperDemo23ArticlesModuleInterface", "view"]
+- !private ["P9ViperDemo23ArticlesModuleInterface", "wireframe"]
+- !private ["P9ViperDemo21ArticlesViewInterface", "Intractor"]
+- !private ["P9ViperDemo21ArticlesViewInterface", "Presentor"]
+- ["P9ViperDemo21ArticlesViewInterface", "String"]
+- ["P9ViperDemo21ArticlesViewInterface", "Void"]
+- !private ["P9ViperDemo21ArticlesViewInterface", "WireFrame"]
+- ["P9ViperDemo21ArticlesViewInterface", "getTextFromPresentor"]
+- !private ["P9ViperDemo21ArticlesViewInterface", "lblName"]
+- !private ["P9ViperDemo21ArticlesViewInterface", "presentor"]
+- !private ["P9ViperDemo21ArticlesViewInterface", "txtName"]
+- ["P9ViperDemo21ArticlesViewInterface", ""]
+- !private ["P9ViperDemo22ArticlesWireframeInput", "init"]
+- !private ["P9ViperDemo22ArticlesWireframeInput", "view"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps11CVarArgType", "Intractor"]
+- !private ["Ps11CVarArgType", "Presentor"]
+- !private ["Ps11CVarArgType", "WireFrame"]
+- ["Ps11CVarArgType", "buttonClick"]
+- ["Ps11CVarArgType", "buttonSortTitle"]
+- ["Ps11CVarArgType", "getTextFromPresentor"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "lblName"]
+- ["Ps11CVarArgType", "navigationBarTitle"]
+- ["Ps11CVarArgType", "presentor"]
+- !private ["Ps11CVarArgType", "text"]
+- ["Ps11CVarArgType", "txtName"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "Intractor"]
+- !private ["Ps28CustomDebugStringConvertible", "Presentor"]
+- !private ["Ps28CustomDebugStringConvertible", "WireFrame"]
+- ["Ps28CustomDebugStringConvertible", "buttonClick"]
+- ["Ps28CustomDebugStringConvertible", "buttonSortTitle"]
+- ["Ps28CustomDebugStringConvertible", "getTextFromPresentor"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "lblName"]
+- ["Ps28CustomDebugStringConvertible", "navigationBarTitle"]
+- ["Ps28CustomDebugStringConvertible", "presentor"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "txtName"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Intractor"]
+- !private ["Ps23CustomStringConvertible", "Presentor"]
+- !private ["Ps23CustomStringConvertible", "WireFrame"]
+- ["Ps23CustomStringConvertible", "buttonClick"]
+- ["Ps23CustomStringConvertible", "buttonSortTitle"]
+- ["Ps23CustomStringConvertible", "getTextFromPresentor"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "lblName"]
+- ["Ps23CustomStringConvertible", "navigationBarTitle"]
+- ["Ps23CustomStringConvertible", "presentor"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "txtName"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Intractor"]
+- !private ["Ps9Equatable", "Presentor"]
+- !private ["Ps9Equatable", "WireFrame"]
+- ["Ps9Equatable", "buttonClick"]
+- ["Ps9Equatable", "buttonSortTitle"]
+- ["Ps9Equatable", "getTextFromPresentor"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "lblName"]
+- ["Ps9Equatable", "navigationBarTitle"]
+- ["Ps9Equatable", "presentor"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "txtName"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "Intractor"]
+- !private ["Ps8Hashable", "Presentor"]
+- !private ["Ps8Hashable", "WireFrame"]
+- ["Ps8Hashable", "buttonClick"]
+- ["Ps8Hashable", "buttonSortTitle"]
+- ["Ps8Hashable", "getTextFromPresentor"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "lblName"]
+- ["Ps8Hashable", "navigationBarTitle"]
+- ["Ps8Hashable", "presentor"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "txtName"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["C9ViperDemo9Intractor", "deinit"]
+- !private ["C9ViperDemo9Intractor", "init"]
+- !private ["C9ViperDemo9Intractor", "output"]
+- !private ["PSo8NSCoding", "Intractor"]
+- !private ["PSo8NSCoding", "Presentor"]
+- !private ["PSo8NSCoding", "WireFrame"]
+- ["PSo8NSCoding", "buttonClick"]
+- ["PSo8NSCoding", "buttonSortTitle"]
+- ["PSo8NSCoding", "getTextFromPresentor"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "lblName"]
+- ["PSo8NSCoding", "navigationBarTitle"]
+- ["PSo8NSCoding", "presentor"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "txtName"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "Intractor"]
+- !private ["PSo26NSExtensionRequestHandling", "Presentor"]
+- !private ["PSo26NSExtensionRequestHandling", "WireFrame"]
+- ["PSo26NSExtensionRequestHandling", "buttonClick"]
+- ["PSo26NSExtensionRequestHandling", "buttonSortTitle"]
+- ["PSo26NSExtensionRequestHandling", "getTextFromPresentor"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "lblName"]
+- ["PSo26NSExtensionRequestHandling", "navigationBarTitle"]
+- ["PSo26NSExtensionRequestHandling", "presentor"]
+- ["PSo26NSExtensionRequestHandling", "txtName"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "ArticlesModuleInterface"]
+- !private ["CSo8NSObject", "Intractor"]
+- !private ["CSo8NSObject", "Presentor"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "WireFrame"]
+- ["CSo8NSObject", "buttonClick"]
+- ["CSo8NSObject", "buttonSortTitle"]
+- ["CSo8NSObject", "getTextFromPresentor"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "lblName"]
+- ["CSo8NSObject", "navigationBarTitle"]
+- ["CSo8NSObject", "presentor"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "txtName"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "Intractor"]
+- !private ["PSo16NSObjectProtocol", "Presentor"]
+- !private ["PSo16NSObjectProtocol", "WireFrame"]
+- ["PSo16NSObjectProtocol", "buttonClick"]
+- ["PSo16NSObjectProtocol", "buttonSortTitle"]
+- ["PSo16NSObjectProtocol", "getTextFromPresentor"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "lblName"]
+- ["PSo16NSObjectProtocol", "navigationBarTitle"]
+- ["PSo16NSObjectProtocol", "presentor"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "txtName"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["C9ViperDemo9Presentor", "deinit"]
+- !private ["C9ViperDemo9Presentor", "init"]
+- !private ["C9ViperDemo9Presentor", "interactor"]
+- !private ["C9ViperDemo9Presentor", "view"]
+- !private ["C9ViperDemo9Presentor", "wireframe"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "Intractor"]
+- !private ["PSo21UIAppearanceContainer", "Presentor"]
+- !private ["PSo21UIAppearanceContainer", "WireFrame"]
+- ["PSo21UIAppearanceContainer", "buttonClick"]
+- ["PSo21UIAppearanceContainer", "buttonSortTitle"]
+- ["PSo21UIAppearanceContainer", "getTextFromPresentor"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "lblName"]
+- ["PSo21UIAppearanceContainer", "navigationBarTitle"]
+- ["PSo21UIAppearanceContainer", "presentor"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "txtName"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "Intractor"]
+- !private ["PSo18UIContentContainer", "Presentor"]
+- !private ["PSo18UIContentContainer", "WireFrame"]
+- ["PSo18UIContentContainer", "buttonClick"]
+- ["PSo18UIContentContainer", "buttonSortTitle"]
+- ["PSo18UIContentContainer", "getTextFromPresentor"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "lblName"]
+- ["PSo18UIContentContainer", "navigationBarTitle"]
+- ["PSo18UIContentContainer", "presentor"]
+- ["PSo18UIContentContainer", "txtName"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "Intractor"]
+- !private ["PSo18UIFocusEnvironment", "Presentor"]
+- !private ["PSo18UIFocusEnvironment", "WireFrame"]
+- ["PSo18UIFocusEnvironment", "buttonClick"]
+- ["PSo18UIFocusEnvironment", "buttonSortTitle"]
+- ["PSo18UIFocusEnvironment", "getTextFromPresentor"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "lblName"]
+- ["PSo18UIFocusEnvironment", "navigationBarTitle"]
+- ["PSo18UIFocusEnvironment", "presentor"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "txtName"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "ArticlesModuleInterface"]
+- !private ["CSo11UIResponder", "Intractor"]
+- !private ["CSo11UIResponder", "Presentor"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "WireFrame"]
+- ["CSo11UIResponder", "buttonClick"]
+- ["CSo11UIResponder", "buttonSortTitle"]
+- ["CSo11UIResponder", "getTextFromPresentor"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "lblName"]
+- ["CSo11UIResponder", "navigationBarTitle"]
+- ["CSo11UIResponder", "presentor"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "txtName"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "Intractor"]
+- !private ["PSo30UIResponderStandardEditActions", "Presentor"]
+- !private ["PSo30UIResponderStandardEditActions", "WireFrame"]
+- ["PSo30UIResponderStandardEditActions", "buttonClick"]
+- ["PSo30UIResponderStandardEditActions", "buttonSortTitle"]
+- ["PSo30UIResponderStandardEditActions", "getTextFromPresentor"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "lblName"]
+- ["PSo30UIResponderStandardEditActions", "navigationBarTitle"]
+- ["PSo30UIResponderStandardEditActions", "presentor"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "txtName"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "Intractor"]
+- !private ["PSo16UIStateRestoring", "Presentor"]
+- !private ["PSo16UIStateRestoring", "WireFrame"]
+- ["PSo16UIStateRestoring", "buttonClick"]
+- ["PSo16UIStateRestoring", "buttonSortTitle"]
+- ["PSo16UIStateRestoring", "getTextFromPresentor"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "lblName"]
+- ["PSo16UIStateRestoring", "navigationBarTitle"]
+- ["PSo16UIStateRestoring", "presentor"]
+- ["PSo16UIStateRestoring", "txtName"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "Intractor"]
+- !private ["PSo18UITraitEnvironment", "Presentor"]
+- !private ["PSo18UITraitEnvironment", "WireFrame"]
+- ["PSo18UITraitEnvironment", "buttonClick"]
+- ["PSo18UITraitEnvironment", "buttonSortTitle"]
+- ["PSo18UITraitEnvironment", "getTextFromPresentor"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "lblName"]
+- ["PSo18UITraitEnvironment", "navigationBarTitle"]
+- ["PSo18UITraitEnvironment", "presentor"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "txtName"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "ArticlesModuleInterface"]
+- !private ["CSo16UIViewController", "Intractor"]
+- !private ["CSo16UIViewController", "Presentor"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "Void"]
+- !private ["CSo16UIViewController", "WireFrame"]
+- ["CSo16UIViewController", "buttonClick"]
+- ["CSo16UIViewController", "buttonSortTitle"]
+- ["CSo16UIViewController", "getTextFromPresentor"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "lblName"]
+- ["CSo16UIViewController", "navigationBarTitle"]
+- ["CSo16UIViewController", "presentor"]
+- ["CSo16UIViewController", "txtName"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["C9ViperDemo14ViewController", "ArticlesModuleInterface"]
+- !private ["C9ViperDemo14ViewController", "Intractor"]
+- !private ["C9ViperDemo14ViewController", "Presentor"]
+- ["C9ViperDemo14ViewController", "String"]
+- ["C9ViperDemo14ViewController", "UILabel"]
+- ["C9ViperDemo14ViewController", "UITextField"]
+- ["C9ViperDemo14ViewController", "Void"]
+- !private ["C9ViperDemo14ViewController", "WireFrame"]
+- ["C9ViperDemo14ViewController", "buttonClick"]
+- ["C9ViperDemo14ViewController", "buttonSortTitle"]
+- ["C9ViperDemo14ViewController", "deinit"]
+- ["C9ViperDemo14ViewController", "getTextFromPresentor"]
+- ["C9ViperDemo14ViewController", "init"]
+- ["C9ViperDemo14ViewController", "lblName"]
+- ["C9ViperDemo14ViewController", "navigationBarTitle"]
+- ["C9ViperDemo14ViewController", "presentor"]
+- ["C9ViperDemo14ViewController", "txtName"]
+- ["C9ViperDemo14ViewController", "viewDidLoad"]
+- !private ["C9ViperDemo9WireFrame", "deinit"]
+- !private ["C9ViperDemo9WireFrame", "init"]
+- !private ["C9ViperDemo9WireFrame", "view"]
+- !private ["Ps12_Reflectable", "text"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "P9ViperDemo23ArticlesInteractorInput"
+- !private "P9ViperDemo24ArticlesInteractorOutput"
+- !private "P9ViperDemo23ArticlesModuleInterface"
+- "P9ViperDemo21ArticlesViewInterface"
+- !private "P9ViperDemo22ArticlesWireframeInput"
+- !private "PSo15CALayerDelegate"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "C9ViperDemo9Intractor"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "C9ViperDemo9Presentor"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C9ViperDemo14ViewController"
+- !private "C9ViperDemo9WireFrame"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.2.1.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "3725407336940c4478e2730c72b03113"
